@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "*://*.temu.com/*"
       ],
       "js": [
         "content.js"
