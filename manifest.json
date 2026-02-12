@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Yerel Ürünleri Kaldır",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Sayfadaki 'Yerel' ürünleri otomatik kaldırır",
   "permissions": [
     "activeTab",
@@ -17,9 +17,16 @@
         "<all_urls>"
       ],
       "js": [
+        "compat.js",
         "content.js"
       ],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yerel-urunleri-kaldir@iltekin",
+      "strict_min_version": "109.0"
+    }
+  }
 }

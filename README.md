@@ -1,6 +1,6 @@
 # Yerel Satıcıları Gizle (Temu)
 
-Bu Chrome eklentisi, Temu web sitesinde gezinirken yerel satıcılar tarafından satılan ürünleri otomatik olarak gizler ve yalnızca Temu tarafından doğrudan satılan (gönderilen) ürünleri görüntüler.
+Bu tarayıcı eklentisi (**Chrome** & **Firefox**), Temu web sitesinde gezinirken yerel satıcılar tarafından satılan ürünleri otomatik olarak gizler ve yalnızca Temu tarafından doğrudan satılan (gönderilen) ürünleri görüntüler.
 
 ## Özellikler
 
@@ -29,6 +29,20 @@ Bu eklenti Chrome Web Mağazası'nda bulunmamaktadır. Manuel olarak yüklemek i
 
 6.  **Klasörü Seçme:**
     2. adımda ayıkladığınız klasörü (içinde `manifest.json` dosyası olan klasörü) seçin ve "Seç" veya "Tamam" butonuna tıklayın.
+
+### Firefox
+
+1.  **Eklenti Hata Ayıklama Sayfasını Açma:**
+    Firefox'u açın ve adres çubuğuna şunu yazıp Enter'a basın:
+    `about:debugging#/runtime/this-firefox`
+
+2.  **Geçici Eklenti Yükleme:**
+    **"Geçici Eklenti Yükle…" (Load Temporary Add-on…)** butonuna tıklayın.
+
+3.  **Manifest Dosyasını Seçme:**
+    Ayıkladığınız klasördeki `manifest.json` dosyasını seçin ve "Aç" butonuna tıklayın.
+
+> **Not:** Firefox'ta geçici eklentiler tarayıcı kapandığında kaldırılır.
 
 Tebrikler! Eklenti başarıyla yüklendi. Artık Temu'da gezinirken eklenti otomatik olarak çalışacaktır.
 

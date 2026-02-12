@@ -1,7 +1,9 @@
+/* global browserAPI */
+
 const toggleBtn = document.getElementById('toggleBtn');
 
 // Durumu yükle
-chrome.storage.sync.get({ enabled: true }, (data) => {
+browserAPI.storage.sync.get({ enabled: true }, (data) => {
     updateButton(data.enabled);
 });
 
@@ -12,13 +14,13 @@ function updateButton(enabled) {
 
 // Toggle yap
 toggleBtn.addEventListener('click', () => {
-    chrome.storage.sync.get({ enabled: true }, (data) => {
+    browserAPI.storage.sync.get({ enabled: true }, (data) => {
         const newState = !data.enabled;
-        chrome.storage.sync.set({ enabled: newState }, () => {
+        browserAPI.storage.sync.set({ enabled: newState }, () => {
             updateButton(newState);
             // Aktif sekmeye content script çalıştır
-            chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-                chrome.scripting.executeScript({
+            browserAPI.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+                browserAPI.scripting.executeScript({
                     target: { tabId: tabs[0].id },
                     func: toggleProducts,
                     args: [newState]
@@ -36,7 +38,7 @@ function toggleProducts(enabled) {
     } else {
         // "Yerel" ürünleri sil
         document.querySelectorAll('span').forEach(span => {
-            if (span.textContent.trim() === 'Yerel') {
+            if (span.textContent.trim() === 'Yerel' || span.textContent.trim() === 'Local') {
                 const productCard = span.closest('div[role="group"]');
                 if (productCard) {
                     const topContainer = productCard.parentElement?.parentElement;

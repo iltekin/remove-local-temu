@@ -1,9 +1,11 @@
-chrome.storage.sync.get({ enabled: true }, (data) => {
+/* global browserAPI */
+
+browserAPI.storage.sync.get({ enabled: true }, (data) => {
     if (data.enabled) removeLocalProducts();
 });
 
 const observer = new MutationObserver(() => {
-    chrome.storage.sync.get({ enabled: true }, (data) => {
+    browserAPI.storage.sync.get({ enabled: true }, (data) => {
         if (data.enabled) removeLocalProducts();
     });
 });
