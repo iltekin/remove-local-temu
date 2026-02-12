@@ -37,8 +37,15 @@ function toggleProducts(enabled) {
         // "Yerel" ürünleri sil
         document.querySelectorAll('span').forEach(span => {
             if (span.textContent.trim() === 'Yerel') {
-                const productContainer = span.closest('div[role="group"]');
-                if (productContainer) productContainer.remove();
+                const productCard = span.closest('div[role="group"]');
+                if (productCard) {
+                    const topContainer = productCard.parentElement?.parentElement;
+                    if (topContainer) {
+                        topContainer.remove();
+                    } else {
+                        productCard.remove();
+                    }
+                }
             }
         });
     }
