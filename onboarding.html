@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Remove Local Temu</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            background: #16213e;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: #4ecca3;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #b0b0b0;
+        }
+
+        .feature-box {
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .feature-box h3 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .feature-box li {
+            margin-bottom: 8px;
+            list-style-position: inside;
+        }
+
+        .btn {
+            background: #4ecca3;
+            color: #1a1a2e;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.2s;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background: #3db892;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #b0b0b0;
+            border: 1px solid #b0b0b0;
+            margin-top: 10px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            border-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 data-i18n="onboardingTitle">Welcome to Remove Local Temu! 🎉</h1>
+        <p data-i18n="onboardingSubtitle">Thank you for installing the extension. You are now ready to browse Temu
+            without seeing local warehouse
+            products.</p>
+
+        <div class="feature-box">
+            <h3 data-i18n="onboardingHowItWorks">How it works:</h3>
+            <ul>
+                <li data-i18n="onboardingFeature1">Automatically hides "Local Warehouse" products.</li>
+                <li data-i18n="onboardingFeature2">Shows you a counter of hidden items on each page.</li>
+                <li data-i18n="onboardingFeature3">Everything runs in the background smoothly.</li>
+            </ul>
+        </div>
+
+        <div
+            style="background: rgba(78, 204, 163, 0.1); padding: 20px; border-radius: 12px; border: 1px solid rgba(78, 204, 163, 0.3);">
+            <h3 style="color: #4ecca3; margin-top: 0;" data-i18n="onboardingSupportTitle">Support Development ❤️</h3>
+            <p style="margin-bottom: 15px;" data-i18n="onboardingSupportText">This extension is free and open source.
+                You can support the developer by
+                enabling the optional affiliate feature. This adds a referral code to Temu links at no extra cost to
+                you.</p>
+            <button id="enableAffiliate" class="btn" data-i18n="onboardingEnableBtn">Enable & Start</button>
+            <br>
+            <button id="skipAffiliate" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;"
+                data-i18n="onboardingSkipBtn">Do not
+                enable & Start</button>
+        </div>
+    </div>
+    <script src="onboarding.js"></script>
+</body>
+
+</html>

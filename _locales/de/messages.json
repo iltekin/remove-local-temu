@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU Lokale Produkte ausblenden"
+    },
+    "extensionDescription": {
+        "message": "Blendet lokale Produkte auf jeder TEMU-Seite aus"
+    },
+    "headerTitle": {
+        "message": "Lokale ausblenden"
+    },
+    "filterLabel": {
+        "message": "Filter:"
+    },
+    "statusActive": {
+        "message": "Aktiv"
+    },
+    "statusInactive": {
+        "message": "Inaktiv"
+    },
+    "affiliateLabel": {
+        "message": "Affiliate-Link hinzufügen"
+    },
+    "hiddenCount": {
+        "message": "Insgesamt ausgeblendet:"
+    },
+    "toastSupport": {
+        "message": "Affiliate zur Unterstützung aktivieren"
+    },
+    "affiliateInfoContent": {
+        "message": "Durch Aktivieren dieser Funktion unterstützen Sie den Entwickler ohne zusätzliche Kosten. Die Erweiterung fügt Produktlinks einen Empfehlungscode hinzu."
+    },
+    "toastHiddenCount": {
+        "message": "Auf Seite ausgeblendet:"
+    },
+    "thankYouTitle": {
+        "message": "Danke! ❤️"
+    },
+    "thankYouMessage": {
+        "message": "Ihre Unterstützung hilft mir, diese Erweiterung kostenlos und aktuell zu halten."
+    },
+    "onboardingTitle": {
+        "message": "Willkommen bei Remove Local Temu! 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "Danke für die Installation der Erweiterung. Sie können nun Temu durchsuchen, ohne lokale Lagerprodukte zu sehen."
+    },
+    "onboardingHowItWorks": {
+        "message": "Wie es funktioniert:"
+    },
+    "onboardingFeature1": {
+        "message": "Blendet automatisch 'Lokales Lager'-Produkte aus."
+    },
+    "onboardingFeature2": {
+        "message": "Zeigt einen Zähler der ausgeblendeten Artikel auf jeder Seite."
+    },
+    "onboardingFeature3": {
+        "message": "Alles läuft reibungslos im Hintergrund."
+    },
+    "onboardingSupportTitle": {
+        "message": "Entwicklung unterstützen ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "Diese Erweiterung ist kostenlos und Open Source. Sie können den Entwickler unterstützen, indem Sie die optionale Affiliate-Funktion aktivieren. Dies fügt Temu-Links einen Empfehlungscode hinzu, ohne zusätzliche Kosten für Sie."
+    },
+    "onboardingEnableBtn": {
+        "message": "Affiliate aktivieren & Starten"
+    },
+    "onboardingSkipBtn": {
+        "message": "Affiliate nicht aktivieren & Starten"
+    }
+}

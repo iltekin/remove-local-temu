@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU Nascondi prodotti locali"
+    },
+    "extensionDescription": {
+        "message": "Nasconde i prodotti locali presenti in qualsiasi pagina di TEMU"
+    },
+    "headerTitle": {
+        "message": "Nascondi locali"
+    },
+    "filterLabel": {
+        "message": "Filtro:"
+    },
+    "statusActive": {
+        "message": "Attivo"
+    },
+    "statusInactive": {
+        "message": "Inattivo"
+    },
+    "affiliateLabel": {
+        "message": "Aggiungi link affiliato"
+    },
+    "hiddenCount": {
+        "message": "Totale nascosti:"
+    },
+    "toastSupport": {
+        "message": "Abilita affiliazione per supportare"
+    },
+    "affiliateInfoContent": {
+        "message": "Abilitando questa funzione, supporti lo sviluppatore senza costi aggiuntivi. L'estensione aggiunge un codice di riferimento ai link dei prodotti."
+    },
+    "toastHiddenCount": {
+        "message": "Nascosti nella pagina:"
+    },
+    "thankYouTitle": {
+        "message": "Grazie! ❤️"
+    },
+    "thankYouMessage": {
+        "message": "Il tuo supporto mi aiuta a mantenere questa estensione gratuita e aggiornata."
+    },
+    "onboardingTitle": {
+        "message": "Benvenuto su Remove Local Temu! 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "Grazie per aver installato l'estensione. Ora sei pronto a navigare su Temu senza vedere i prodotti del magazzino locale."
+    },
+    "onboardingHowItWorks": {
+        "message": "Come funziona:"
+    },
+    "onboardingFeature1": {
+        "message": "Nasconde automaticamente i prodotti 'Magazzino locale'."
+    },
+    "onboardingFeature2": {
+        "message": "Mostra un contatore di articoli nascosti su ogni pagina."
+    },
+    "onboardingFeature3": {
+        "message": "Tutto funziona in background senza problemi."
+    },
+    "onboardingSupportTitle": {
+        "message": "Supporta lo sviluppo ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "Questa estensione è gratuita e open source. Puoi supportare lo sviluppatore abilitando la funzione di affiliazione opzionale. Questo aggiunge un codice di riferimento ai link Temu senza costi aggiuntivi per te."
+    },
+    "onboardingEnableBtn": {
+        "message": "Abilita Affiliazione & Inizia"
+    },
+    "onboardingSkipBtn": {
+        "message": "Non abilitare Affiliazione & Inizia"
+    }
+}

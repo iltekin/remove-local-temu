@@ -1,0 +1,94 @@
+{
+    "extensionName": {
+        "message": "TEMU Yerel Ürünleri Gizle",
+        "description": "Eklentinin adı"
+    },
+    "extensionDescription": {
+        "message": "TEMU'daki herhangi bir sayfada bulunan yerel ürünleri gizler",
+        "description": "Eklentinin açıklaması"
+    },
+    "headerTitle": {
+        "message": "Yerel Ürünleri Gizle",
+        "description": "Popup başlığı"
+    },
+    "filterLabel": {
+        "message": "Filtre:",
+        "description": "Filtre etiketi"
+    },
+    "statusActive": {
+        "message": "Aktif",
+        "description": "Filtre açıkken durum metni"
+    },
+    "statusInactive": {
+        "message": "Pasif",
+        "description": "Filtre kapalıyken durum metni"
+    },
+    "affiliateLabel": {
+        "message": "Geliştirici affiliate linkini ekle",
+        "description": "Affiliate kutucuğu etiketi"
+    },
+    "hiddenCount": {
+        "message": "Toplam gizlenen:",
+        "description": "Toplam gizlenen ürün sayısı etiketi"
+    },
+    "toastSupport": {
+        "message": "Destek olmak için affiliate'i açın",
+        "description": "Kullanıcıyı affiliate'i açmaya teşvik eden mesaj"
+    },
+    "affiliateInfoContent": {
+        "message": "Bu özelliği açarak, size ekstra bir maliyet olmadan geliştiriciye destek olursunuz. Eklenti, ürün linklerine sadece referans kodu ekler.",
+        "description": "Affiliate özelliğinin açıklaması"
+    },
+    "toastHiddenCount": {
+        "message": "Sayfada gizlenen:",
+        "description": "Sayfada gizlenen ürün sayısı etiketi"
+    },
+    "thankYouTitle": {
+        "message": "Teşekkürler! ❤️",
+        "description": "Teşekkür toast başlığı"
+    },
+    "thankYouMessage": {
+        "message": "Desteğiniz, bu eklentiyi ücretsiz ve güncel tutmama yardımcı oluyor.",
+        "description": "Teşekkür toast mesajı"
+    },
+    "onboardingTitle": {
+        "message": "Remove Local Temu'ya Hoş Geldiniz! 🎉",
+        "description": "Karşılama sayfası başlığı"
+    },
+    "onboardingSubtitle": {
+        "message": "Eklentiyi yüklediğiniz için teşekkürler. Artık Temu'da yerel depo ürünlerini görmeden gezinebilirsiniz.",
+        "description": "Karşılama sayfası alt başlığı"
+    },
+    "onboardingHowItWorks": {
+        "message": "Nasıl çalışır:",
+        "description": "Özellikler listesi başlığı"
+    },
+    "onboardingFeature1": {
+        "message": "'Yerel Depo' ürünlerini otomatik olarak gizler.",
+        "description": "Özellik 1"
+    },
+    "onboardingFeature2": {
+        "message": "Her sayfada gizlenen ürünlerin sayısını gösterir.",
+        "description": "Özellik 2"
+    },
+    "onboardingFeature3": {
+        "message": "Her şey arka planda sorunsuz çalışır.",
+        "description": "Özellik 3"
+    },
+    "onboardingSupportTitle": {
+        "message": "Geliştirmeyi Destekle ❤️",
+        "description": "Destek bölümü başlığı"
+    },
+    "onboardingSupportText": {
+        "message": "Bu eklenti ücretsiz ve açık kaynaktır. İsteğe bağlı affiliate özelliğini açarak geliştiriciye destek olabilirsiniz. Bu, size ekstra bir maliyet olmadan Temu linklerine referans kodu ekler.",
+        "description": "Destek bölümü metni"
+    },
+    "onboardingEnableBtn": {
+        "message": "Affiliate Etkinleştir & Başla",
+        "description": "Affiliate açma butonu"
+    },
+    "onboardingSkipBtn": {
+        "message": "Affiliate Etkinleştirme & Başla",
+        "description": "Affiliate geçme butonu"
+    }
+}

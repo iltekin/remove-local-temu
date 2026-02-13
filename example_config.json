@@ -1,0 +1,52 @@
+{
+    "params": [
+        {
+            "key": "referral_code",
+            "value": "none"
+        },
+        {
+            "key": "src",
+            "value": "none"
+        }
+    ],
+    "actions": [
+        {
+            "comment": "Remove the newsletter popup completely",
+            "selector": ".newsletter-popup-container",
+            "action": "remove"
+        },
+        {
+            "comment": "Hide any element with 'Sponsored' label by finding its parent product card",
+            "selector": "span.sponsored-label",
+            "traverse": "closest('.product-card')",
+            "action": "hide"
+        },
+        {
+            "comment": "Hide a specific banner only on the cart page",
+            "selector": ".upsell-banner",
+            "url_contains": "/cart",
+            "action": "hide"
+        },
+        {
+            "comment": "Highlight a specific section (yellow background) for debugging or emphasis",
+            "selector": ".flash-sale-timer",
+            "action": "style",
+            "style": {
+                "backgroundColor": "yellow",
+                "border": "2px solid red"
+            }
+        },
+        {
+            "comment": "Remove the parent of a specific ad container (1 level up)",
+            "selector": ".ad-placeholder",
+            "traverse": "parent",
+            "action": "remove"
+        },
+        {
+            "comment": "Remove the grandparent of a specific tracking pixel (2 levels up)",
+            "selector": "img.tracker-pixel",
+            "traverse": "parent.parent",
+            "action": "remove"
+        }
+    ]
+}

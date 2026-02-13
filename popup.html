@@ -96,11 +96,11 @@
       transition: transform 0.25s;
     }
 
-    .switch input:checked + .slider {
+    .switch input:checked+.slider {
       background: #4ecca3;
     }
 
-    .switch input:checked + .slider::before {
+    .switch input:checked+.slider::before {
       transform: translateX(20px);
     }
 
@@ -123,26 +123,45 @@
 
 <body>
   <div class="header">
-    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
-      stroke="#4ecca3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4ecca3"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M3 6h18l-1.5 9h-15z" />
       <circle cx="9" cy="20" r="1" />
       <circle cx="17" cy="20" r="1" />
       <line x1="2" y1="2" x2="22" y2="22" stroke="#e74c3c" stroke-width="2.5" />
     </svg>
-    <h1>Yerel Ürünleri Gizle</h1>
+    <h1 data-i18n="headerTitle">Yerel Ürünleri Gizle</h1>
   </div>
 
   <div class="toggle-row">
-    <span class="toggle-label">Filtre: <span id="statusText" class="status">...</span></span>
+    <span class="toggle-label"><span data-i18n="filterLabel">Filtre:</span> <span id="statusText"
+        class="status">...</span></span>
     <label class="switch">
       <input type="checkbox" id="toggleCheck">
       <span class="slider"></span>
     </label>
   </div>
 
+  <div class="toggle-row">
+    <span class="toggle-label" data-i18n="affiliateLabel">Geliştirici affiliate linkini ekle</span>
+    <label class="switch">
+      <input type="checkbox" id="affiliateCheck">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div style="margin: -8px 0 24px 0; padding: 0 4px;">
+    <p class="toggle-label" style="font-size: 11px; line-height: 1.4; opacity: 0.7;" data-i18n="affiliateInfoContent">
+      ...
+    </p>
+  </div>
+
+  <div style="text-align: center; margin-bottom: 12px; color: #b0b0b0; font-size: 13px;">
+    <span data-i18n="hiddenCount">Toplam gizlenen:</span> <span id="hiddenCount"
+      style="color: #4ecca3; font-weight: bold;">0</span>
+  </div>
+
   <div class="footer">
-    <a href="https://github.com/iltekin/remove-local-temu" target="_blank">GitHub</a>
+    <a href="https://x.com/sezeriltekin" target="_blank">Sezer İltekin</a>
   </div>
 
   <script src="popup.js"></script>

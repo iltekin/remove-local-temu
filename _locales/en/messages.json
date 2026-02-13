@@ -1,0 +1,94 @@
+{
+  "extensionName": {
+    "message": "TEMU Hide Local Products",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Hides local products found on any page on TEMU",
+    "description": "Description of the extension"
+  },
+  "headerTitle": {
+    "message": "Hide Local Products",
+    "description": "Title in the popup header"
+  },
+  "filterLabel": {
+    "message": "Filter:",
+    "description": "Label for the toggle switch"
+  },
+  "statusActive": {
+    "message": "Active",
+    "description": "Status text when filter is on"
+  },
+  "statusInactive": {
+    "message": "Inactive",
+    "description": "Status text when filter is off"
+  },
+  "affiliateLabel": {
+    "message": "Add developer affiliate link",
+    "description": "Label for the affiliate checkbox"
+  },
+  "hiddenCount": {
+    "message": "Total hidden:",
+    "description": "Label for the total hidden items counter"
+  },
+  "toastSupport": {
+    "message": "Enable affiliate to support",
+    "description": "Toast message prompting user to enable affiliate"
+  },
+  "affiliateInfoContent": {
+    "message": "By enabling this feature, you support the developer at no extra cost to you. The extension appends a referral code to product links.",
+    "description": "Explanation of the affiliate feature"
+  },
+  "toastHiddenCount": {
+    "message": "Hidden on page:",
+    "description": "Label for hidden items on current page"
+  },
+  "thankYouTitle": {
+    "message": "Thank You! ❤️",
+    "description": "Title for the thank you toast"
+  },
+  "thankYouMessage": {
+    "message": "Your support helps me keep this extension free and updated.",
+    "description": "Message for the thank you toast"
+  },
+  "onboardingTitle": {
+    "message": "Welcome to Remove Local Temu! 🎉",
+    "description": "Title of the onboarding page"
+  },
+  "onboardingSubtitle": {
+    "message": "Thank you for installing the extension. You are now ready to browse Temu without seeing local warehouse products.",
+    "description": "Subtitle of the onboarding page"
+  },
+  "onboardingHowItWorks": {
+    "message": "How it works:",
+    "description": "Header for features list"
+  },
+  "onboardingFeature1": {
+    "message": "Automatically hides 'Local Warehouse' products.",
+    "description": "Feature 1"
+  },
+  "onboardingFeature2": {
+    "message": "Shows you a counter of hidden items on each page.",
+    "description": "Feature 2"
+  },
+  "onboardingFeature3": {
+    "message": "Everything runs in the background smoothly.",
+    "description": "Feature 3"
+  },
+  "onboardingSupportTitle": {
+    "message": "Support Development ❤️",
+    "description": "Header for support section"
+  },
+  "onboardingSupportText": {
+    "message": "This extension is free and open source. You can support the developer by enabling the optional affiliate feature. This adds a referral code to Temu links at no extra cost to you.",
+    "description": "Text for support section"
+  },
+  "onboardingEnableBtn": {
+    "message": "Enable Affiliate & Start",
+    "description": "Button to enable affiliate"
+  },
+  "onboardingSkipBtn": {
+    "message": "Do not enable Affiliate & Start",
+    "description": "Button to skip affiliate"
+  }
+}

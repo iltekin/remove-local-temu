@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU 로컬 상품 숨기기"
+    },
+    "extensionDescription": {
+        "message": "TEMU의 모든 페이지에서 로컬 상품을 숨깁니다"
+    },
+    "headerTitle": {
+        "message": "로컬 숨기기"
+    },
+    "filterLabel": {
+        "message": "필터:"
+    },
+    "statusActive": {
+        "message": "활성"
+    },
+    "statusInactive": {
+        "message": "비활성"
+    },
+    "affiliateLabel": {
+        "message": "개발자 제휴 링크 추가"
+    },
+    "hiddenCount": {
+        "message": "총 숨김:"
+    },
+    "toastSupport": {
+        "message": "지원을 위해 제휴 활성화"
+    },
+    "affiliateInfoContent": {
+        "message": "이 기능을 활성화하면 추가 비용 없이 개발자를 지원할 수 있습니다. 확장은 상품 링크에 추천 코드를 추가합니다."
+    },
+    "toastHiddenCount": {
+        "message": "페이지에서 숨김:"
+    },
+    "thankYouTitle": {
+        "message": "감사합니다! ❤️"
+    },
+    "thankYouMessage": {
+        "message": "여러분의 지원은 이 확장을 무료로 유지하고 업데이트하는 데 큰 도움이 됩니다."
+    },
+    "onboardingTitle": {
+        "message": "Remove Local Temu에 오신 것을 환영합니다! 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "확장 프로그램을 설치해 주셔서 감사합니다. 이제 로컬 창고 상품 없이 Temu를 탐색할 준비가 되었습니다."
+    },
+    "onboardingHowItWorks": {
+        "message": "작동 방식:"
+    },
+    "onboardingFeature1": {
+        "message": "'로컬 창고' 상품을 자동으로 숨깁니다."
+    },
+    "onboardingFeature2": {
+        "message": "각 페이지에서 숨겨진 아이템 수를 보여줍니다."
+    },
+    "onboardingFeature3": {
+        "message": "모든 것이 백그라운드에서 원활하게 실행됩니다."
+    },
+    "onboardingSupportTitle": {
+        "message": "개발 지원 ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "이 확장 프로그램은 무료이며 오픈 소스입니다. 제휴 기능을 활성화하여 개발자를 지원할 수 있습니다. 추가 비용 없이 Temu 링크에 추천 코드가 추가됩니다."
+    },
+    "onboardingEnableBtn": {
+        "message": "제휴 활성화 및 시작"
+    },
+    "onboardingSkipBtn": {
+        "message": "제휴 활성화하지 않고 시작"
+    }
+}

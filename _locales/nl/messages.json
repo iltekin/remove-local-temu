@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU Lokale producten verbergen"
+    },
+    "extensionDescription": {
+        "message": "Verbergt lokale producten op elke pagina van TEMU"
+    },
+    "headerTitle": {
+        "message": "Lokale verbergen"
+    },
+    "filterLabel": {
+        "message": "Filter:"
+    },
+    "statusActive": {
+        "message": "Actief"
+    },
+    "statusInactive": {
+        "message": "Inactief"
+    },
+    "affiliateLabel": {
+        "message": "Verwijzingslink toevoegen"
+    },
+    "hiddenCount": {
+        "message": "Totaal verborgen:"
+    },
+    "toastSupport": {
+        "message": "Schakel affiliate in om te steunen"
+    },
+    "affiliateInfoContent": {
+        "message": "Door deze functie in te schakelen, steunt u de ontwikkelaar zonder extra kosten. De extensie voegt een verwijzingscode toe aan productlinks."
+    },
+    "toastHiddenCount": {
+        "message": "Verborgen op pagina:"
+    },
+    "thankYouTitle": {
+        "message": "Bedankt! ❤️"
+    },
+    "thankYouMessage": {
+        "message": "Uw steun helpt mij om deze extensie gratis en up-to-date te houden."
+    },
+    "onboardingTitle": {
+        "message": "Welkom bij Remove Local Temu! 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "Bedankt voor het installeren van de extensie. U bent nu klaar om Temu te browsen zonder lokale magazijnproducten te zien."
+    },
+    "onboardingHowItWorks": {
+        "message": "Hoe het werkt:"
+    },
+    "onboardingFeature1": {
+        "message": "Verbergt automatisch 'Lokaal Magazijn' producten."
+    },
+    "onboardingFeature2": {
+        "message": "Toont een teller van verborgen items op elke pagina."
+    },
+    "onboardingFeature3": {
+        "message": "Alles draait soepel op de achtergrond."
+    },
+    "onboardingSupportTitle": {
+        "message": "Steun Ontwikkeling ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "Deze extensie is gratis en open source. U kunt de ontwikkelaar steunen door de optionele affiliate-functie in te schakelen. Dit voegt een verwijzingscode toe aan Temu-links zonder extra kosten voor u."
+    },
+    "onboardingEnableBtn": {
+        "message": "Affiliate inschakelen & Starten"
+    },
+    "onboardingSkipBtn": {
+        "message": "Affiliate niet inschakelen & Starten"
+    }
+}

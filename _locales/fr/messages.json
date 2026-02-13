@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU Masquer produits locaux"
+    },
+    "extensionDescription": {
+        "message": "Masque les produits locaux trouvés sur n'importe quelle page de TEMU"
+    },
+    "headerTitle": {
+        "message": "Masquer locaux"
+    },
+    "filterLabel": {
+        "message": "Filtre :"
+    },
+    "statusActive": {
+        "message": "Actif"
+    },
+    "statusInactive": {
+        "message": "Inactif"
+    },
+    "affiliateLabel": {
+        "message": "Ajouter lien affilié"
+    },
+    "hiddenCount": {
+        "message": "Total masqué :"
+    },
+    "toastSupport": {
+        "message": "Activer l'affiliation pour soutenir"
+    },
+    "affiliateInfoContent": {
+        "message": "En activant cette fonctionnalité, vous soutenez le développeur sans frais supplémentaires. L'extension ajoute un code de parrainage aux liens produits."
+    },
+    "toastHiddenCount": {
+        "message": "Masqué sur la page :"
+    },
+    "thankYouTitle": {
+        "message": "Merci ! ❤️"
+    },
+    "thankYouMessage": {
+        "message": "Votre soutien m'aide à garder cette extension gratuite et à jour."
+    },
+    "onboardingTitle": {
+        "message": "Bienvenue sur Remove Local Temu ! 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "Merci d'avoir installé l'extension. Vous êtes maintenant prêt à naviguer sur Temu sans voir les produits de l'entrepôt local."
+    },
+    "onboardingHowItWorks": {
+        "message": "Comment ça marche :"
+    },
+    "onboardingFeature1": {
+        "message": "Masque automatiquement les produits 'Entrepôt local'."
+    },
+    "onboardingFeature2": {
+        "message": "Affiche un compteur d'articles masqués sur chaque page."
+    },
+    "onboardingFeature3": {
+        "message": "Tout fonctionne en arrière-plan de manière fluide."
+    },
+    "onboardingSupportTitle": {
+        "message": "Soutenir le développement ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "Cette extension est gratuite et open source. Vous pouvez soutenir le développeur en activant la fonction d'affiliation optionnelle. Cela ajoute un code de parrainage aux liens Temu sans frais supplémentaires pour vous."
+    },
+    "onboardingEnableBtn": {
+        "message": "Activer l'affiliation et Commencer"
+    },
+    "onboardingSkipBtn": {
+        "message": "Ne pas activer l'affiliation et Commencer"
+    }
+}

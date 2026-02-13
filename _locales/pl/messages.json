@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU Ukryj lokalne produkty"
+    },
+    "extensionDescription": {
+        "message": "Ukrywa lokalne produkty znalezione na dowolnej stronie TEMU"
+    },
+    "headerTitle": {
+        "message": "Ukryj lokalne"
+    },
+    "filterLabel": {
+        "message": "Filtr:"
+    },
+    "statusActive": {
+        "message": "Aktywny"
+    },
+    "statusInactive": {
+        "message": "Nieaktywny"
+    },
+    "affiliateLabel": {
+        "message": "Dodaj link partnerski"
+    },
+    "hiddenCount": {
+        "message": "Ukryte łącznie:"
+    },
+    "toastSupport": {
+        "message": "Włącz partnerstwo, aby wesprzeć"
+    },
+    "affiliateInfoContent": {
+        "message": "Włączając tę funkcję, wspierasz dewelopera bez dodatkowych kosztów. Rozszerzenie dodaje kod polecający do linków produktów."
+    },
+    "toastHiddenCount": {
+        "message": "Ukryte na stronie:"
+    },
+    "thankYouTitle": {
+        "message": "Dziękuję! ❤️"
+    },
+    "thankYouMessage": {
+        "message": "Twoje wsparcie pomaga mi utrzymać to rozszerzenie darmowym i aktualnym."
+    },
+    "onboardingTitle": {
+        "message": "Witamy w Remove Local Temu! 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "Dziękujemy za zainstalowanie rozszerzenia. Jesteś teraz gotowy, aby przeglądać Temu bez widzenia produktów z lokalnego magazynu."
+    },
+    "onboardingHowItWorks": {
+        "message": "Jak to działa:"
+    },
+    "onboardingFeature1": {
+        "message": "Automatycznie ukrywa produkty 'Lokalny Magazyn'."
+    },
+    "onboardingFeature2": {
+        "message": "Pokazuje licznik ukrytych przedmiotów na każdej stronie."
+    },
+    "onboardingFeature3": {
+        "message": "Wszystko działa płynnie w tle."
+    },
+    "onboardingSupportTitle": {
+        "message": "Wspieraj Rozwój ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "To rozszerzenie jest darmowe i open source. Możesz wesprzeć dewelopera, włączając opcjonalną funkcję partnerską. Dodaje to kod polecający do linków Temu bez dodatkowych kosztów dla Ciebie."
+    },
+    "onboardingEnableBtn": {
+        "message": "Włącz Partnerstwo & Start"
+    },
+    "onboardingSkipBtn": {
+        "message": "Nie włączaj Partnerstwa & Start"
+    }
+}

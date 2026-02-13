@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU ローカル商品を非表示"
+    },
+    "extensionDescription": {
+        "message": "TEMUの任意のページにあるローカル商品を非表示にします"
+    },
+    "headerTitle": {
+        "message": "ローカルを非表示"
+    },
+    "filterLabel": {
+        "message": "フィルター:"
+    },
+    "statusActive": {
+        "message": "有効"
+    },
+    "statusInactive": {
+        "message": "無効"
+    },
+    "affiliateLabel": {
+        "message": "開発者リンクを追加"
+    },
+    "hiddenCount": {
+        "message": "非表示総数:"
+    },
+    "toastSupport": {
+        "message": "サポートのためにアフィリエイトを有効にする"
+    },
+    "affiliateInfoContent": {
+        "message": "この機能を有効にすることで、追加費用なしで開発者をサポートできます。拡張機能は商品リンクに紹介コードを追加します。"
+    },
+    "toastHiddenCount": {
+        "message": "ページ内で非表示:"
+    },
+    "thankYouTitle": {
+        "message": "ありがとうございます！ ❤️"
+    },
+    "thankYouMessage": {
+        "message": "あなたのサポートのおかげで、この拡張機能を無料で更新し続けることができます。"
+    },
+    "onboardingTitle": {
+        "message": "Remove Local Temuへようこそ！ 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "拡張機能をインストールしていただきありがとうございます。これで、ローカル倉庫の商品を見ずにTemuを閲覧する準備が整いました。"
+    },
+    "onboardingHowItWorks": {
+        "message": "仕組み:"
+    },
+    "onboardingFeature1": {
+        "message": "「ローカル倉庫」商品を自動的に非表示にします。"
+    },
+    "onboardingFeature2": {
+        "message": "各ページで非表示にされたアイテムの数を表示します。"
+    },
+    "onboardingFeature3": {
+        "message": "すべてがバックグラウンドでスムーズに動作します。"
+    },
+    "onboardingSupportTitle": {
+        "message": "開発をサポート ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "この拡張機能は無料でオープンソースです。オプションのアフィリエイト機能を有効にすることで、開発者をサポートできます。これにより、追加費用なしでTemuリンクに紹介コードが追加されます。"
+    },
+    "onboardingEnableBtn": {
+        "message": "アフィリエイトを有効にして開始"
+    },
+    "onboardingSkipBtn": {
+        "message": "アフィリエイトを有効にせず開始"
+    }
+}

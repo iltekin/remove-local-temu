@@ -1,0 +1,71 @@
+{
+    "extensionName": {
+        "message": "TEMU Ocultar produtos locais"
+    },
+    "extensionDescription": {
+        "message": "Oculta produtos locais encontrados em qualquer página do TEMU"
+    },
+    "headerTitle": {
+        "message": "Ocultar locais"
+    },
+    "filterLabel": {
+        "message": "Filtro:"
+    },
+    "statusActive": {
+        "message": "Ativo"
+    },
+    "statusInactive": {
+        "message": "Inativo"
+    },
+    "affiliateLabel": {
+        "message": "Adicionar link de afiliado"
+    },
+    "hiddenCount": {
+        "message": "Total oculto:"
+    },
+    "toastSupport": {
+        "message": "Ativar afiliado para apoiar"
+    },
+    "affiliateInfoContent": {
+        "message": "Ao ativar este recurso, você apoia o desenvolvedor sem custo extra. A extensão adiciona um código de referência aos links dos produtos."
+    },
+    "toastHiddenCount": {
+        "message": "Oculto na página:"
+    },
+    "thankYouTitle": {
+        "message": "Obrigado! ❤️"
+    },
+    "thankYouMessage": {
+        "message": "Seu apoio me ajuda a manter esta extensão gratuita e atualizada."
+    },
+    "onboardingTitle": {
+        "message": "Bem-vindo ao Remove Local Temu! 🎉"
+    },
+    "onboardingSubtitle": {
+        "message": "Obrigado por instalar a extensão. Agora você está pronto para navegar no Temu sem ver produtos de armazém local."
+    },
+    "onboardingHowItWorks": {
+        "message": "Como funciona:"
+    },
+    "onboardingFeature1": {
+        "message": "Oculta automaticamente produtos de 'Armazém Local'."
+    },
+    "onboardingFeature2": {
+        "message": "Mostra um contador de itens ocultos em cada página."
+    },
+    "onboardingFeature3": {
+        "message": "Tudo funciona em segundo plano suavemente."
+    },
+    "onboardingSupportTitle": {
+        "message": "Apoiar o Desenvolvimento ❤️"
+    },
+    "onboardingSupportText": {
+        "message": "Esta extensão é gratuita e de código aberto. Você pode apoiar o desenvolvedor ativando o recurso opcional de afiliado. Isso adiciona um código de referência aos links do Temu sem custo extra para você."
+    },
+    "onboardingEnableBtn": {
+        "message": "Ativar Afiliado & Iniciar"
+    },
+    "onboardingSkipBtn": {
+        "message": "Não ativar Afiliado & Iniciar"
+    }
+}
