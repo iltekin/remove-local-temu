@@ -111,10 +111,15 @@ function createToast() {
     toastElement = document.createElement('div');
     toastElement.id = 'temu-extension-toast';
     // Style with glassmorphism/gradient effect
+    const isMobile = window.innerWidth < 600;
+
     toastElement.style.cssText = `
         position: fixed;
-        bottom: 24px;
-        right: 24px;
+        bottom: ${isMobile ? '90px' : '24px'};
+        right: ${isMobile ? '16px' : '24px'};
+        ${isMobile ? 'left: 16px;' : ''}
+        width: ${isMobile ? 'auto' : 'auto'};
+        min-width: ${isMobile ? '0' : '200px'};
         background: rgba(30, 30, 30, 0.95);
         color: #ffffff;
         font-weight: 500;
@@ -134,7 +139,6 @@ function createToast() {
         gap: 4px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
-        min-width: 200px;
     `;
 
     // Tooltip/Modal for info
@@ -218,14 +222,16 @@ function showToast(count) {
     }
 
     // Header part
-    let headerHtml = `
-        <div style="font-weight: 600; font-size: 15px;">
-            ${removedText} <span style="font-size: 17px;">${count}</span>
-        </div>
-    `;
+    const headerDiv = document.createElement('div');
+    headerDiv.style.cssText = "font-weight: 600; font-size: 15px;";
+    headerDiv.appendChild(document.createTextNode(removedText + " "));
+    const countSpan = document.createElement('span');
+    countSpan.style.fontSize = '17px';
+    countSpan.textContent = count;
+    headerDiv.appendChild(countSpan);
 
     // Support part with icon and toggle
-    let supportHtml = '';
+    let supportDiv = null;
 
     // Only show if NOT enabled
     if (!isAffiliateEnabled) {
@@ -233,38 +239,54 @@ function showToast(count) {
         const toggleTransform = 'translateX(0)';
         let messageText = supportText;
 
-        supportHtml = `
-            <div id="temu-support-row" style="display: flex; align-items: center; gap: 8px; font-size: 12px; opacity: 0.9; margin-top: 4px;">
-                <div id="temu-toast-toggle" style="
-                    position: relative; 
-                    width: 28px; 
-                    height: 16px; 
-                    background: rgba(255, 255, 255, 0.1); 
-                    border-radius: 99px; 
-                    cursor: pointer;
-                    border: 1px solid #666;
-                    transition: all 0.2s ease;
-                    flex-shrink: 0;
-                ">
-                    <div style="
-                        position: absolute; 
-                        top: 2px; 
-                        left: 2px; 
-                        width: 10px; 
-                        height: 10px; 
-                        background: ${toggleColor}; 
-                        border-radius: 50%; 
-                        transition: transform 0.2s cubic-bezier(0.4, 0.0, 0.2, 1); 
-                        transform: ${toggleTransform};
-                    "></div>
-                </div>
-                
-                <div style="display: flex; align-items: center; gap: 6px;">
-                    <span>${messageText} ❤️</span>
-                    <span id="temu-info-icon" style="cursor: pointer; display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; background: rgba(255,255,255,0.2); border-radius: 50%; font-size: 10px; font-weight: bold; color: #fff;">?</span>
-                </div>
-            </div>
+        supportDiv = document.createElement('div');
+        supportDiv.id = 'temu-support-row';
+        supportDiv.style.cssText = "display: flex; align-items: center; gap: 8px; font-size: 12px; opacity: 0.9; margin-top: 4px;";
+
+        const toggle = document.createElement('div');
+        toggle.id = 'temu-toast-toggle';
+        toggle.style.cssText = `
+            position: relative; 
+            width: 28px; 
+            height: 16px; 
+            background: rgba(255, 255, 255, 0.1); 
+            border-radius: 99px; 
+            cursor: pointer;
+            border: 1px solid #666;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
         `;
+
+        const knob = document.createElement('div');
+        knob.style.cssText = `
+            position: absolute; 
+            top: 2px; 
+            left: 2px; 
+            width: 10px; 
+            height: 10px; 
+            background: ${toggleColor}; 
+            border-radius: 50%; 
+            transition: transform 0.2s cubic-bezier(0.4, 0.0, 0.2, 1); 
+            transform: ${toggleTransform};
+        `;
+        toggle.appendChild(knob);
+
+        const msgContainer = document.createElement('div');
+        msgContainer.style.cssText = "display: flex; align-items: center; gap: 6px;";
+
+        const msgSpan = document.createElement('span');
+        msgSpan.textContent = messageText + " ❤️";
+
+        const infoIcon = document.createElement('span');
+        infoIcon.id = 'temu-info-icon';
+        infoIcon.style.cssText = "cursor: pointer; display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; background: rgba(255,255,255,0.2); border-radius: 50%; font-size: 10px; font-weight: bold; color: #fff;";
+        infoIcon.textContent = "?";
+
+        msgContainer.appendChild(msgSpan);
+        msgContainer.appendChild(infoIcon);
+
+        supportDiv.appendChild(toggle);
+        supportDiv.appendChild(msgContainer);
     }
 
     // ... tooltip logic remains ...
@@ -275,9 +297,10 @@ function showToast(count) {
     tooltip.style.display = 'none';
     tooltip.textContent = infoText;
 
-    toastElement.innerHTML = '';
+    toastElement.replaceChildren();
     const contentWrapper = document.createElement('div');
-    contentWrapper.innerHTML = headerHtml + supportHtml;
+    contentWrapper.appendChild(headerDiv);
+    if (supportDiv) contentWrapper.appendChild(supportDiv);
     toastElement.appendChild(contentWrapper);
     toastElement.appendChild(tooltip);
 
@@ -348,12 +371,22 @@ function showThankYouToast() {
         // Fallback or use hardcoded if i18n fails
     }
 
-    toastElement.innerHTML = `
-        <div style="display: flex; flex-direction: column; gap: 4px; padding-bottom: 4px;">
-            <div style="font-weight: 600; font-size: 15px; color: #4ecca3;">${title}</div>
-            <div style="font-size: 13px; opacity: 0.95; line-height: 1.4;">${message}</div>
-        </div>
-    `;
+    toastElement.replaceChildren();
+
+    const container = document.createElement('div');
+    container.style.cssText = "display: flex; flex-direction: column; gap: 4px; padding-bottom: 4px;";
+
+    const titleDiv = document.createElement('div');
+    titleDiv.style.cssText = "font-weight: 600; font-size: 15px; color: #4ecca3;";
+    titleDiv.textContent = title;
+
+    const messageDiv = document.createElement('div');
+    messageDiv.style.cssText = "font-size: 13px; opacity: 0.95; line-height: 1.4;";
+    messageDiv.textContent = message;
+
+    container.appendChild(titleDiv);
+    container.appendChild(messageDiv);
+    toastElement.appendChild(container);
 
     // Animate in
     toastElement.style.opacity = '1';

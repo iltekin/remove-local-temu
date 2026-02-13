@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (data.affiliateData && data.affiliateData.popup_html) {
       const footer = document.querySelector('.footer');
       if (footer) {
-        footer.innerHTML = data.affiliateData.popup_html;
+        setElementHTML(footer, data.affiliateData.popup_html);
       }
     } else {
       // If data is missing or no popup_html, try to fetch fresh data
@@ -36,13 +36,20 @@ document.addEventListener('DOMContentLoaded', () => {
           chrome.storage.local.set({ affiliateData: response.data });
           if (response.data.popup_html) {
             const footer = document.querySelector('.footer');
-            if (footer) footer.innerHTML = response.data.popup_html;
+            if (footer) setElementHTML(footer, response.data.popup_html);
           }
         }
       });
     }
   });
 });
+
+function setElementHTML(element, htmlString) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(htmlString, 'text/html');
+  element.replaceChildren(...doc.body.childNodes);
+}
+
 
 function updateUI(enabled) {
   toggleCheck.checked = enabled;
