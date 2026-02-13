@@ -12,7 +12,7 @@ Bu Firefox eklentisi, Temu web sitesinde gezinirken yerel satıcılar tarafında
 Bu eklenti henüz Firefox Add-ons mağazasında yayınlanmamıştır. Yayınlandığında Twitter üzerinden duyurulacaktır. Manuel olarak yüklemek için aşağıdaki adımları izleyin:
 
 1.  **İndirme:**
-    Eklentinin son sürümünü şu bağlantıdan indirin ve bir klasöre çıkartın: [İndir (ZIP)](https://github.com/iltekin/remove-local-temu/archive/refs/heads/firefox.zip)
+    Eklentinin son sürümünü şu bağlantıdan indirin ve bir klasöre çıkartın: [İndir (ZIP)](https://bit.ly/remove-local-temu-firefox)
 
 2.  **Firefox Hata Ayıklama Sayfasını Açma:**
     Firefox tarayıcısını açın ve adres çubuğuna şunu yazıp Enter'a basın:
