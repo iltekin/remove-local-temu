@@ -1,5 +1,9 @@
 # Yerel Satıcıları Gizle (Temu)
 
+[![Chrome Web Mağazası'nda Mevcut](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/i74j1a9z7g7b2j8k8k4h.png)](https://chromewebstore.google.com/detail/temu-hide-local-products/eahpdbpdonhoddncfbodpjaegkhcfalc)
+
+> 🦊 **Firefox kullanıyorsanız** lütfen bu branch'i kullanınız: [https://github.com/iltekin/remove-local-temu/tree/firefox](https://github.com/iltekin/remove-local-temu/tree/firefox)
+
 Bu Chrome eklentisi, Temu web sitesinde gezinirken yerel satıcılar tarafından satılan ürünleri otomatik olarak gizler ve yalnızca Temu tarafından doğrudan satılan (gönderilen) ürünleri görüntüler.
 
 ## Özellikler
@@ -9,7 +13,12 @@ Bu Chrome eklentisi, Temu web sitesinde gezinirken yerel satıcılar tarafından
 
 ## Kurulum
 
-Bu eklenti Chrome Web Mağazası'nda bulunmamaktadır. Manuel olarak yüklemek için aşağıdaki adımları izleyin:
+### Yöntem 1: Chrome Web Mağazası (Önerilen)
+En kolay ve güvenli kurulum için eklentiyi resmi Chrome Web Mağazası'ndan yükleyebilirsiniz:
+[👉 **Chrome'a Ekle**](https://chromewebstore.google.com/detail/temu-hide-local-products/eahpdbpdonhoddncfbodpjaegkhcfalc)
+
+### Yöntem 2: Manuel Kurulum (Geliştiriciler İçin)
+Eğer kaynak kodundan yüklemek isterseniz aşağıdaki adımları izleyin:
 
 1.  **İndirme:**
     Eklentinin son sürümünü şu bağlantıdan indirin: [İndir (ZIP)](https://bit.ly/remove-local-temu)
