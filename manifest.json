@@ -18,7 +18,7 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"]
   },
   "host_permissions": [
     "https://iltekin.com/*"
@@ -33,5 +33,11 @@
       ],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "remove-local-temu@iltekin.com",
+      "strict_min_version": "109.0"
+    }
+  }
 }
