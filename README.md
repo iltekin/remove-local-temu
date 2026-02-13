@@ -9,10 +9,10 @@ Bu Firefox eklentisi, Temu web sitesinde gezinirken yerel satıcılar tarafında
 
 ## Kurulum
 
-Bu eklenti henüz Firefox Add-ons mağazasında yayınlanmamıştır. Manuel olarak yüklemek için aşağıdaki adımları izleyin:
+Bu eklenti henüz Firefox Add-ons mağazasında yayınlanmamıştır. Yayınlandığında Twitter üzerinden duyurulacaktır. Manuel olarak yüklemek için aşağıdaki adımları izleyin:
 
 1.  **İndirme:**
-    Bu sayfada sağ üstte bulunan yeşil **Code** butonuna tıklayın ve açılan menüden **Download ZIP** seçeneğini seçin. İndirdiğiniz `.zip` dosyasını bir klasöre çıkartın.
+    Eklentinin son sürümünü şu bağlantıdan indirin ve bir klasöre çıkartın: [İndir (ZIP)](https://github.com/iltekin/remove-local-temu/archive/refs/heads/firefox.zip)
 
 2.  **Firefox Hata Ayıklama Sayfasını Açma:**
     Firefox tarayıcısını açın ve adres çubuğuna şunu yazıp Enter'a basın:
